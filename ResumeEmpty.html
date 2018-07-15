@@ -1,0 +1,240 @@
+<!-- Thanks for checking out my code! You can take the <style> and copy/paste all of that in a seperate .css file to clean it up a bit. Regardless, it's not responsive. It's not designed for multiple browsers or mobile, it was just a quick warm up but it wouldn't be difficult to impliment at all. Cheers and I wish the best for your future! -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Resume | Welcome
+	</title>
+	<!--<link rel="stylesheet" type="text/css" href="resume_stylesheet1.css"> -->
+</head>
+
+<!-- STYLE START -->
+<style type="text/css">
+	body {
+	width: 90%; /* change this to fit your size needs */
+	margin: auto;
+	margin-top: 10px;
+	box-shadow: 5px 5px 10px black;
+	font-family: sans-serif;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+section h2, section p {
+	padding: 0;
+	margin: 0;
+}
+section h2 {
+	font-size: 20px;
+}
+ul {
+	list-style: none;
+}
+span {
+	font-size: 20px;
+}
+#act li, #lang li, #skill li {
+	padding-bottom: 10px;
+}
+#header {
+	border-radius: 5px 5px 0 0;
+	background-color: rgb(28, 32, 35);
+	color: white;
+	padding: 10px 20px 10px 20px;
+	margin: 0;
+	overflow: hidden;
+	display: block;
+	border-bottom: 10px solid rgb(96, 197, 248);
+}
+#header h1, #header p {
+	padding: 0;
+	margin: 0;
+}
+#section {
+	width: 90%;
+	margin: auto;
+}
+#intro {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+#contact {
+	list-style: none;
+	overflow: hidden;
+	padding-left: 0;
+}
+#address{
+	position: relative;
+	float:  left;
+	text-align:  center;
+	top: 40px;
+}
+#icon {
+	position: relative;
+	float:  right;
+	right: 20px;
+}
+#edu, #exp, #act, #lang, #skill {
+	padding-bottom: 25px;
+}
+#skill {
+	overflow: scroll;
+}
+
+#ul {
+	border-left: 10px solid rgb(96, 197, 248);
+
+}
+#footer {
+	border-radius: 0 0 5px 5px;
+	background-color: rgb(28, 32, 35);
+	color: white;
+	padding: 10px 20px 10px 20px;
+	margin: 0;
+	overflow: hidden;
+	display: block;
+	border-bottom: 10px solid rgb(96, 197, 248);
+}
+
+.inline {
+	display: inline-block;
+}
+.inlineFoot {
+	display: inline-block;
+	margin-left: 30%;
+}
+.inline img {
+	width: 150px;
+	height: auto;
+	border-radius: 50%;
+	box-shadow: 5px 2px 5px black;
+
+}
+.iconContainer {
+	float: right;
+	display: block;
+	height: 200;
+	width: 50%;
+}
+.space {
+	padding-bottom: 20px;
+}
+.copy {
+	position: relative;
+	float: right;
+	padding-left: 20px;
+}
+.name {
+	position: relative;
+	float: left;
+}
+</style>
+<!-- STYLE END -->
+
+<body>
+	<!-- maine section 1 start -->
+	<header id="header">
+		<div>
+			<div class="inline">
+				<h1>Example Human</h1>
+				<p>Profession Title</p>
+				<ul id="contact">
+					<li><strong>Phone </strong> 123-456-7890</li>
+					<li><strong>Email </strong>  exampleEmail@icloud.com</li>
+					<li><strong>WWW </strong> (Website Name)</li>
+				</ul>
+			</div>
+			<div class="iconContainer">
+				<div id="address" class="inline">
+					<p>123 valley site road </br>City, State 23154</p>
+				</div>
+				<div id="icon" class="inline">
+					<img src="empty.png">
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- main section 1 end -->
+
+	<!-- main section 2 start -->
+	<section id="section">
+		<div><p id="intro">This is where you would put the crazy exagerations of what makes you so amazing for the position you're applying for. If you can't think of anything, <strong>here's a tip:</strong> type out what youre pretty decent at... now exagerate it to the fullest. Use ridiculous adjectives and throw in how great you are at sed attribute. </p></div>
+		<div id="edu">
+			<h2>EDUCATION</h2> <hr>
+			<p><strong>General:</strong> Highschool Diploma/ Highschool/ GPA</p>
+		</div>
+
+		<div>
+			<div id="exp">
+				<h2>EXPERIENCE</h2><hr>
+				<ul id="ul">
+					<li class="space">
+						<span><strong>Job Type</strong></span>
+						<ul>
+							<li><strong>Company:</strong> Position</li>
+							<li><strong>Company:</strong> Position</li>
+						</ul>
+					</li>
+					<li class="space">
+						<span><strong>Job Type</strong></span>
+						<ul>
+							<li><strong>Company:</strong> Position</li>
+							<li><strong>Company:</strong> Position</li>
+						</ul>
+					</li>
+					
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div>
+			<div id="act">
+				<h2>ACTIVITIES</h2><hr>
+				<ul id="ul">
+					<li>Activity</li>
+					<li>Activity</li>
+					<li>Activity</li>
+					<li>Activity</li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="lang">
+			<h2>LANGUAGES</h2><hr>
+			<ul id="ul">
+				<li>Language: Fluency</li>
+				<li>Language: Fluency</li>
+			</ul>
+			
+		</div>
+
+		<div id="skill">
+			<h2>SKILLS</h2><hr>
+			<ul id="ul">
+				<li>Skill</li>
+				<li>Skill</li>
+				<li>Skill</li>
+				<li>Cont...</li>
+			</ul>
+		</div>
+		
+	</section>
+	<!-- main section 2 end -->
+
+	<!-- Footer start -->
+	<footer id="footer">
+		<div>
+			<div class="inlineFoot">
+				<p class="name">Triston Armstrong - 2018</p>
+				<p class="copy">Original Code by Triston Armstrong &copy;</p>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer end -->
+
+</body>
+</html>
